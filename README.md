@@ -1,6 +1,12 @@
-# Luke's build of st - the simple (suckless) terminal
+# Kriipke's take on Luke's build of st - the simple (suckless) terminal
 
-The [suckless terminal (st)](https://st.suckless.org/) with some additional features that make it literally the best terminal emulator ever:
+
+## CHANGES & NOTES
+
+* __kriipke__ ~ 21/08/14
+  - to satisfying missing "hb.h" while compiling install the Harfbuzz \
+  development package: `dnf install -y harfbuzz-devel`
+  - Nov 2021: [patch applied](https://st.suckless.org/patches/hidecursor) hide cursor until mouse is used again
 
 ## Unique features (using dmenu)
 
