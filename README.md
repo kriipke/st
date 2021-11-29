@@ -7,6 +7,9 @@
   - to satisfying missing "hb.h" while compiling install the Harfbuzz \
   development package: `dnf install -y harfbuzz-devel`
   - Nov 2021: [patch applied](https://st.suckless.org/patches/hidecursor) hide cursor until mouse is used again
+  - Nov 2021: [patch applied](https://st.suckless.org/patches/rightclickpaste/st-rightclickpaste-0.8.2.diff) right click to paste
+  - TODO: apply https://st.suckless.org/patches/scrollback/st-scrollback-0.8.4.diff
+  - TODO: apply https://st.suckless.org/patches/externalpipe/ 
 
 ## Unique features (using dmenu)
 
